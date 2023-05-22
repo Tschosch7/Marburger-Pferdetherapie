@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</head>
+<body>
+      <!--Navbar-->
+  <nav>
+    <div class="nav__container">
+      <a href="index.html">
+        <img src="assets/Firmenlogo transparent.png" alt="" class="logo" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">
+            Home
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/about.html" class="nav__link">
+            Über mich
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/leistungen.html" class="nav__link">
+            Leistungen
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/preise.html" class="nav__link">
+            Preise
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/kontakt.html" class="nav__link nav__link--primary">
+            Kontakt
+          </a>
+        </li>
+      </ul>
+      <button class="btn__menu" onClick="openMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="menu__backdrop">
+        <button class="btn__menu btn__menu--close" onClick="closeMenu()">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="menu__links">
+          <li class="menu__list"><a href="/index.html" class="menu__link" onClick="closeMenu()">Home</a></li>
+          <li class="menu__list"><a href="/about.html" class="menu__link" onClick=closeMenu()>Über mich</a></li>
+          <li class="menu__list"><a href="/leistungen.html" class="menu__link" onClick="closeMenu()">Leistungen</a></li>
+          <li class="menu__list"><a href="/preise.html" class="menu__link" onClick="closeMenu()">Preise</a></li>
+          <li class="menu__list"><a href="/kontakt.html" class="menu__link" onClick="closeMenu()">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+    <div class="about-container">
+        <div class="left-section">
+          <img src="assets/Picsart_23-04-10_17-20-25-611.jpg" alt="Über mich" class="about-img">
+        </div>
+        <div class="right-section">
+          <h2>Über mich</h2>
+          <p>Ich bin 1998 geboren und im schönen Wittgenstein aufgewachsen, welches
+            ich noch heute meine Heimat nennen darf.
+            Meine Familie lebt bereits seit 1869 im Wittgensteiner Land. Sie
+            bewirtschaftete bis 1984 einen landwirtschaftlichen Betrieb. Mein Ur-
+            Urgroßvater arbeitete schon in seiner Dienstzeit (um 1908) mit Pferden und
+            war ein Teil einer damaligen Reiterkompanie. Später fuhr er bis Anfang der
+            1940er Jahre mit unseren Kaltblütern vor dem Wagen, die Milch der Bauern
+            aus unserem Dorf, zum Bahnhof im Nachbarort.
+            In den 1970er Jahren verkaufte mein Uropa das letzte Pferd, welches meiner
+            Mutter und ihrer Schwester gehörte.
+            Auch wenn meine Familie seitdem keine Pferde mehr
+            gehalten hat, ist doch die Liebe zu den Tieren in der Familie geblieben.
+            Im Alter von 7 Jahren packte dann auch mich der „Pferdevirus“ und ich nahm
+            von da an jahrelang Reitunterricht.
+            So kam es schließlich dazu, dass ich in meiner Jugend erneut ein eigenes
+            Pferd in die Familie bringen durfte.</p>
+          <ul class="about-ul">
+            <li class="about-li">01/2023 Abgeschlossene Fort- /Weiterbildung zur Pferdeosteopathin, an der Akap(Akademie für Pferdetherapie) in Gießen</li>
+            <li class="about-li">08/2022 Fortbildung Kinesiologisches Taping für Pferde</li>
+            <li class="about-li">10/2021 Zertifizierung als Pferdephysiotherapeutin ebenfalls an der Akap
+                in Gießen, durch den BZT
+                (Bundesverband zertifizierter Tierphysiotherapeuten)</li>
+            <li class="about-li">06/2019 Abgeschlossene Berufsausbildung als ZFA</li>
+            <li class="about-li">06/2016 Abschluss Fachabitur in Wirtschaft und Verwaltung</li>
+          </ul>
+        </div>
+      </div>
+  </main>
+   <!--Footer-->
+
+   <footer>
+    <div class="footer__container">
+      <div class="row">
+        <div class="links">
+          <div class="link">
+            <a href="/index.html">
+              <h3 class="link__h3">Home</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="#testimonials" class="link__anchor">
+                  Referenzen
+                </a>
+              </li>
+              <li class="link__li">
+                <a href="#faq" class="link__anchor">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="/about.html">
+              <h3 class="link__h3">Über mich</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="#faq" class="link__anchor">
+                  Qualifikationen
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="/leistungen.html">
+              <h3 class="link__h3">Leistungen</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="#testimonials" class="link__anchor">
+                  Pferdephysio
+                </a>
+              </li>
+              <li class="link__li">
+                <a href="#faq" class="link__anchor">
+                  Osteopathie
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="/preise.html">
+              <h3 class="link__h3">Preise</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="/preise.html" class="link__anchor">
+                  Preisliste
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="/kontakt.html">
+              <h3 class="link__h3">Kontakt</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="tel:0172 9318571" class="link__anchor">
+                  0172 9318571
+                </a>
+              </li>
+              <li class="link__li">
+                <a href="mailto:j.marburger2802@gmail.com" class="link__anchor">
+                  Email
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <a href="/rechtliches">
+              <h3 class="link__h3">Rechtliches</h3>
+            </a>
+            <ul class="link__ul">
+              <li class="link__li">
+                <a href="/kontakt.html" class="link__anchor">
+                  Impressum
+                </a>
+              </li>
+              <li class="link__li">
+                <a href="/kontakt.html" class="link__anchor">
+                  Datenschutz
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__border"></div>
+        <div class="footer__info">
+          <div class="footer__logo--wrapper">
+            <a href="/index.html">
+              <img class="footer__logo" src="assets/Firmenlogo transparent.png" alt="" />
+              <div class="footer__logo--text"></div>
+            </a>
+          </div>
+          <div class="copyright">
+            &copy;Urheberrecht. Alle Rechte vorbehalten.
+          </div>
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/pferdetherapie.marburger/" target="blank_">
+              <i class="fab fa-instagram socials__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
