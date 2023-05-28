@@ -13,7 +13,7 @@ const prevButton = document.getElementById('prevButton');
 const testimonials = [
   "Super freundlich, kompetent und sehr zu empfehlen. Das weltbeste Tier hat die Behandlung sehr genossen und läuft wieder frei und klar! Dankeschön",
   "Sehr freundlich, schnelle Terminvergabe. Nur weiter zu empfehlen! Mein Pferd hatte jahrelang Rückenschmerzen und durch die kontinuierliche und gute Behandlung kann ich nun endlich wieder ohne Bedenken reiten.",
-  "Ich bin sehr zufrieden mit der Pferdetherapie Marburger. Mit ihrem Wissen und ihrer einfühlsamen ruhigen Art, hat sie meiner alten shetty Dame, die Probleme beim Laufen hatte, sehr geholfen. Ich kann die Pferdetherapie Marbuger nur jedem empfehelen."
+  "Ich bin sehr zufrieden mit der Pferdetherapie Marburger. Mit ihrem Wissen und ihrer einfühlsamen ruhigen Art, hat sie meiner alten shetty Dame, die Probleme beim Laufen hatte, sehr geholfen. Ich kann die Pferdetherapie Marbuger nur jedem empfehlen."
 ];
 
 let currentIndex = 0;
